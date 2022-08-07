@@ -37,6 +37,12 @@ body {
     text-align: center;
 }
 
+@media screen and (max-width: 376px) {
+    .qr-component {
+        width: 70%;
+    }
+}
+
 .qr-component_image {
     width: 100%;
     border-radius: 10px;
@@ -44,6 +50,12 @@ body {
 
 .qr-component_text-wrapper {
     padding: 30px 20px;
+}
+
+@media screen and (max-width: 376px) {
+    .qr-component_text-wrapper {
+        padding: 15px;
+    }
 }
 
 .qr-component_title {
