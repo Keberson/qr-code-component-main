@@ -35,6 +35,7 @@ body {
     font-family: 'Outfit', sans-serif;
     border-radius: 20px;
     text-align: center;
+    box-shadow: 0 0 4px 0 hsl(218, 44%, 22%, 20%);
 }
 
 @media screen and (max-width: 376px) {
